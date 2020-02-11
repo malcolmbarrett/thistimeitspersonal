@@ -1,6 +1,6 @@
 ---
 title: "This time it's personal"
-subtitle: "Livecoding a personal R package <br><br><a href='bit.ly/laerug_pkg_cloud'>bit.ly/laerug_pkg_cloud</a><br><br><a href='bit.ly/laerug_pkg_repo'>bit.ly/laerug_pkg_cloud</a>"
+subtitle: "Livecoding a personal R package <br><br><a href='bit.ly/laerug_pkg_cloud'>bit.ly/laerug_pkg_cloud</a><br><br><a href='bit.ly/laerug_pkg_repo'>bit.ly/laerug_pkg_repo</a>"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
