@@ -1,0 +1,108 @@
+---
+title: "This time it's personal"
+subtitle: "Livecoding a personal R package <br><br><a href='bit.ly/laerug_pkg_cloud'>bit.ly/laerug_pkg_cloud</a><br><br><a href='bit.ly/laerug_pkg_repo'>bit.ly/laerug_pkg_cloud</a>"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: middle, center, inverse
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, tibble.max_extra_cols = 6, tibble.width = 60)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, fig.align = "center", dpi = 320)
+```
+
+```{r, css_theme, echo=FALSE}
+htmltools::includeCSS("https://raw.githubusercontent.com/malcolmbarrett/kakashi/master/kakashi.css")
+```
+
+# We're going to make a package *right now*
+
+---
+
+class: middle, center, inverse, 
+
+## **`usethis::create_package("mbmisc2")`**
+
+---
+
+class: middle, center, inverse, 
+
+# **`library(devtools)`**
+# **`library(usethis)`**
+
+---
+
+class: middle, center, inverse, 
+
+# **`use_r("labs_wrap")`**
+
+---
+
+class: middle, center, inverse, 
+
+# **`use_package("ggplot2")`**
+# **`use_package("tibble")`**
+# **`use_package("dplyr")`**
+# **`use_package("stringr")`**
+
+---
+
+class: middle, center, inverse, 
+
+# `r emojifont::emoji("hammer")` **Build**
+# `r emojifont::emoji("heavy_check_mark")` **R CMD Check**
+
+---
+
+class: middle, center, inverse, 
+
+# **Edit DESCRIPTION**
+
+---
+
+class: middle, center, inverse, 
+
+# **`use_mit_license("Your Name")`**
+
+---
+
+class: middle, center, inverse, 
+
+# **`use_roxygen_md()`**
+# **`document()`**
+
+---
+
+class: middle, center, inverse, 
+
+# `r emojifont::emoji("hammer")` **Build**
+# `r emojifont::emoji("heavy_check_mark")` **R CMD Check**
+
+---
+
+class: middle, center, inverse, 
+
+# **`use_test("labs_wrap")`**
+# **`test()`**
+
+---
+
+class: middle, center, inverse, 
+
+# **`use_git()`**
+# **`use_github()`**
+
+---
+
+class: inverse, center
+
+# Resources
+## [R Packages, 2nd Edition](https://r-pkgs.org/): The work-in-progress second edition of R Packages. Uses the most cutting edge tools to make your life easier. Free online.
+## [R Packages, 1st Edition](http://r-pkgs.had.co.nz/): The first edition of R Packages. Still very good! Free online.
